@@ -1,1 +1,1 @@
-# AI-LUTS-Diagnosis-System-
+# AI-LUTS-Diagnosis-System- AFYP Project by Gattonya Godfrey and Migadde Kyazze
