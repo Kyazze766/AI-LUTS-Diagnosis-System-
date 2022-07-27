@@ -1,0 +1,126 @@
+ body,
+ html {
+ margin: 0;
+ padding: 0;
+ height: 100%;
+ background: #F4F2F2 !important;
+ }
+
+ /* Style the navigation bar */
+.navbar {
+    width: 100%;
+    background-color: white;
+    overflow: auto;
+    border-top: 2px solid #02075B;
+
+  } 
+  
+  .topnav {
+    width: 100%;
+    text-align: center;
+    background-color: #02075B;
+    overflow: auto;
+
+  }
+  /* Navbar links */
+  .navbar a {
+    float: left;
+    text-align: center;
+    padding: 12px;
+    color: gray;
+    text-decoration: none;
+    font-size: 20px;
+  }
+  
+  /* Navbar links on mouse-over */
+  .navbar a:hover {
+    background-color: #000;
+    text-0
+    
+  }
+  
+  /* Current/active navbar link */
+  .active {
+    background-color: #edb91e4;
+    
+  }
+  
+  /* Add responsiveness - will automatically display the navbar vertically instead of horizontally on screens less than 500 pixels */
+  @media screen and (max-width: 500px) {
+    .navbar a {
+      float: none;
+      display: block;
+    }
+  }
+  
+ .user_card {
+ height: 500px;
+ width: 400px;
+ margin-top: auto;
+ margin-bottom: auto;
+ background: #2ab1ce;
+ position: relative;
+ display: flex;
+ justify-content: center;
+ flex-direction: column;
+ padding: 10px;
+ box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+ border-radius: 15px;
+ 
+ }
+ .brand_logo_container {
+ position: absolute;
+ height: 170px;
+ width: 170px;
+ top: -75px;
+ border-radius: 50%;
+ background: #5D5D5D;
+ padding: 10px;
+ text-align: center;
+ 
+ }
+ .brand_logo {
+ width: 102%;
+ padding-top: 30%;
+ padding-bottom: 50%;
+ border-radius: 10%;
+ border-color: white;
+     }
+ .form_container {
+ margin-top: 100px;
+ }
+ .login_btn {
+ width: 80%;
+ background: #EDB914 !important;
+ color: white !important;
+ }
+ .login_btn:focus {
+ box-shadow: none !important;
+ outline: 0px !important;
+ }
+ .login_container {
+ padding: 0 2rem;
+ }
+ .input-group-text {
+ background: #EDB914  !important;
+ color: white !important;
+ border: 0 !important;
+ border-radius: 0.25rem 0 0 0.25rem !important;
+ }
+ .input_user,
+ .input_pass:focus {
+ box-shadow: none !important;
+ outline: 0px !important;
+ }
+ .custom-checkbox .custom-control-input:checked~.custom-control-label::before {
+ background-color: #EDB914 !important;
+ }
+a {
+    color: white;
+    text-decoration: none;
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects;
+}
+a:hover{
+   color: #EDB914; 
+}
